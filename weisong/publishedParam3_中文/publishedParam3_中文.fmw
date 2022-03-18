@@ -1,0 +1,1191 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command-line to run this workspace:
+#        C:\Apps\fme21313\fme.exe C:\Users\wchen\AppData\Local\Temp\wb_publish_1647583467685_12976/publishedParam3_中文.fmw
+#              --AttributeListCSV "Attribute2,Attribute1"
+#              --AttributeListSpace "Attribute2 Attribute1"
+#              --AttributeName "Attribute1"
+#              --Choice "ppB"
+#              --ChoiceMultiple "ppC ppB"
+#              --ChoiceOrText "Text"
+#              --ChoiceAlias "B"
+#              --ChoiceAliasMultiple "A @Value(Attribute1) @Value(Attribute2)"
+#              --ColorPicker "1,1,1"
+#              --CoordinateSystemName "LL84"
+#              --FilenameExisting "C:\Users\wchen\Documents\FME\Workspaces\metadata.xml"
+#              --FilenameMultiple """C:\Users\wchen\Documents\FME\Workspaces\okta.cert" "C:\Users\wchen\Documents\FME\Workspaces\okta (1).cert"""
+#              --FilenameOutput "workspaceDefaultFolder\pubParamFile.txt"
+#              --FolderExisting ""
+#              --FolderOutput "workspaceDefaultFolder"
+#              --Number "7"
+#              --Password "********"
+#              --Text "Pub Param Text"
+#              --TextMultiline "This<space>is<space>a<lf>Pub<space>Param<space>Multiline<lf>Text"
+#              --TextMultilineNumber "This<space>is<space>a<space>Pub<space>Param<lf>Multi<space>line<lf>Text<space>or<space>Number<space>4"
+#              --URL "http://www.squishqtpubparamurl.com"
+#              --Date "20180528"
+#              --Date_Time "20160923153100"
+#              --DestDataset_CSV2 ""
+#    
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="2324.25 335.751"
+#!   DOC_TOP_LEFT="-929.887 1231.55"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="21313"
+#!   FME_DOCUMENT_GUID="f668f46c-396d-4527-9c02-77984a323aae"
+#!   FME_DOCUMENT_PRIORGUID="5b006032-ec1e-4fef-9fe2-cb40e0c2a9d4,84969655-ccb0-4e3a-ba3b-1373bae29711,e91e51f1-0aa6-400d-9607-685cc555293c,9c8980ec-e8ef-4aea-8c44-a5c19d02c903,43daa2ab-738a-4a71-b46b-6eaea5aa5397,cdc987dc-b14b-4b74-8951-7070cfff5d50,642092d8-318d-4d06-aa71-da9163335bd3,181abdaa-d48d-45ee-bff6-681f30c4928b,9117ce28-55b0-48ed-b291-82dbab6ac5b3,7b4f6be4-556a-43db-9d2d-0782a745d1f5,f84b96c9-e2b3-474d-86a7-21dfffeb9f15,0806837e-a837-45b1-a838-dddf8e020b24,656e0ef5-bc76-45b4-a2d8-0191d48d03c9,5c9c9926-d88c-45a1-bc83-633049c9d36d,f51a5430-55fe-461d-bce5-53efe43eee27,20feddaa-3f78-470c-a340-f1f6f990a02c,c7406716-0213-4447-b118-01b4ef7a55b0,af7f1eeb-e229-45b5-b2cb-ed9ac581ce2b,3766ca47-bdba-46f5-ae2e-e5111cbc6c88,f02b2e2a-e82d-478a-a3a2-1ccba8f6b4a3,f25a2f68-0dca-475f-a1c3-99e00632f070,b8b6c217-510c-413f-98db-e512333d1bb8,dd67a1fd-d1fb-4c23-869a-4e3b1832990a,471784ad-a882-4a86-b6db-b7f823e227ad,e5699f23-080a-457d-bf32-6e12633bac1e,a69092ef-49a9-428e-a062-f3fa256cc9af,444e5028-38ff-4da3-839f-065190b8dafd,246617dd-6f8a-449c-a211-86ee586e0eee,2dc1e110-1b24-4add-a222-e3ec463356a8,0aa99a54-14f1-4c2f-85e1-f3c94a1d40c6,5681a28f-f1df-4178-80ec-1203371538cd,f36d70e0-5a15-4292-bdd8-2787f9238172,2aa7a030-15bf-4abc-821b-dbc89bd6929f,0ce95433-37a3-41ec-bb67-804342e96d35,c11378d7-d675-4763-9b1e-8df3388a46c3,9d1f7ca7-2281-4e00-971c-f439ac570dd0,5a650d5d-06c0-47a2-98f3-38d979fb3c2a,e265ddf0-31e1-47c1-9077-942c05678ede,0b94f9e0-665f-4691-850c-efe55bf88ad0,c793b93f-ca07-46b4-9f85-fab6ced4f988,bf443a6e-1ac8-4e01-bc66-178a7877f3fd,69b4d08a-e7dc-473c-8776-5a06d444c453,31c3e320-265b-4b7f-84a5-652e2f068dbd,f83a6711-4034-4f99-abed-a5ebb183632d,e285d5d8-f8b1-47d4-b284-d2d967098f4f,d4acab12-44a2-4937-a990-34fe6c6ee46e,a84fa1f0-4d29-4bb9-90ff-ce34906644d2,41fb8368-eb47-4cc0-9308-21065318a309,da8f13be-8fd5-4f0f-ad17-93054c73cba2,92922488-2641-4bab-8dfe-9b39e9144171,a1d14b70-651a-4031-bfd4-9f2b5508bfb9,ea22de8e-19e1-4412-8811-52ecfd4469b2,c2de8c2a-f3d3-4add-ba75-423421e6ce66,d0be331a-4474-41af-8e98-febdd361fa9b,53a64685-f665-4695-b1b3-26717fdf1e08,26cf9b65-8591-472b-a2d2-ae982432bbb2,84f1d882-ce87-44a7-a2b7-3bb34c65b4ae,f753384d-a1c9-4136-855f-477c1aecd3e1,71bf4a56-4e6c-4585-a396-992cc727eade,7edcf1a1-f0a6-46de-90a4-91c6dfe90a2d,3f9b0b52-ccb3-4335-8455-24265512df80,861142e0-a5a1-42e8-b7f8-1f660ef1afe0,24753965-a8b4-41f3-b85b-6d4315f24515,08457058-cd73-4110-8df1-bc7f54d7ef6c,b426c40f-0aaf-4bed-aaa7-bfb522d1b7bd,fa230e03-b42e-4335-8126-077f50cad254,03f1bb32-3ad8-4c6d-b997-56cedb924772,ee746d9a-3a6a-4a78-bf89-99403f2c2060,2d80bdb8-b9d4-4956-bd62-a5566c45abcf,13284416-d6b0-4820-90d7-83196dc13998,d49726ea-4528-4832-9f3b-3fd689211905,f22a0e7b-dd54-4710-bebd-b6973abe4af8,a3632429-a9a0-4b22-99e4-5b68eb179cc9,96b60258-1415-4404-b49c-164e7fbad6e5,78f7dc7b-6d84-4845-8486-011505039421,65ce4b65-1ef7-4bbf-b1af-621109553edb,30baaecc-c324-40a6-99b3-c66c58a03aac,34cce1d5-0ff2-474b-9139-87135db5434c,c11a383e-b340-480c-a706-c1cfe7bac65a,862e222b-e1f9-44d0-8d86-abc25e0236fa,a93236ad-46cd-410d-9a15-46e583c60e6e,e1d7abfc-f187-433d-bcca-e34e28590fd4,1d3af1dd-ffc4-466a-9b04-33f45eff1fea,2d58ae4d-1fd1-4ed9-9eca-2580a0208705,79eebb6c-0111-4285-b395-f2e333a72396,99df6dac-9ab3-4cc9-b46e-194bd183213a,328bbc0d-7313-4984-a258-977d367a0c05,edf714b9-079b-4333-ba7f-5919f5791d4a,5b63c51a-6e6f-4b39-80c0-7735ee1f5a7a,380a2ea4-14f6-4db0-aab4-9fa7bb46804b,5e8dfc54-2471-4c47-b474-2f16dd15fb0e,579164db-a29f-41c8-9252-f673538b9ecd,242bffbb-a09c-4498-947a-3938266db5ff,c5a33ea9-ccba-4510-bb7f-f48fe2d843c9,47c5c28d-6a37-4ec2-8c4a-aed92e87b529,116f3d3a-0d94-45a4-be12-d87611166d42,a267ede0-b030-47e4-8ce4-59fc7e0db2e7,418f86e6-bb7f-4daf-a031-50db5d804da2,b9276f3f-4132-4c5a-8850-0c00eebc2713,8595d258-9e24-467c-bb6b-c60b5c81e3a9,25bfc2a1-8ef2-4733-b5da-965e80953bff,d7fa196d-28b9-4f61-9932-f8d82ac8f634,be0799e1-29a7-42c1-9890-27819316a34c,d0deaa86-bc7e-421c-9a33-ffd73896bc4d,34f48a4e-bd15-4335-93a9-ae3c0ce12505,55d995cb-e272-4aab-b958-c7d7a8ff5e90,cbbb6bf4-a1c4-4521-a090-ae212288a2e4,7ce2f1c7-6d6b-4e8e-a727-685f18aef2fc,6d83b406-aa21-4d05-ab5a-1ecba85abf70,a4180f42-d525-48a8-a021-c8a3c5376000,3186939d-a54c-4274-af7c-f358b845dd07,058a50c6-95c8-417c-895e-9cf65251a3b4,020b4a4e-a29c-4682-a9ea-0e7b5dcbfc26,e10cd3e5-34f5-4e61-aeda-a7efcaf92b39,cd701c3e-7d9e-40cf-89f2-b29485b42948,ae15be10-042d-487b-81e3-0b687470ad6f,da16b573-c503-462a-b72b-99e9184ce493,1a6cefb0-69f8-4cbc-8b98-a966f1293c77,98b7a6ca-ba80-4963-93e9-9ef9325cb4b4,49a99951-e505-4b6f-836d-a992bf4d558a,9ccff381-d9cf-45c6-a1a8-2f8603151a9d,c2421ae5-2f5c-4cb0-9c93-41fd2ba3c81a,aebf24a9-59f3-412c-aff3-c889756c7886"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="windows-1252"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2021.0.1.0 (20210404 - Build 21313 - WIN64)"
+#!   LAST_SAVE_DATE="2022-03-17T23:04:27"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="38"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-1237.51 1784.39"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="CSV2"
+#!   DATASET="$(DestDataset_CSV2)"
+#!   KEYWORD="CSV2_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="255"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="csv_existing_file_handling Yes csv_write_field_names firstrow"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="csv_type string fme_basename string fme_color string fme_dataset string fme_feature_type string fme_fill_color string fme_geometry string fme_primary_axis string fme_rotation string fme_secondary_axis string fme_start_angle string fme_sweep_angle string fme_text_size string fme_text_string string fme_type string"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP csv_dataset_group csv_existing_file_handling Dataset&quot; &quot;&quot; &quot;GUI CHOICE csv_existing_file_handling Yes%No Overwrite Existing File&quot; Yes &quot;GUI OPTIONAL NAMEDGROUP csv_fields_group csv_write_field_names Fields&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE csv_write_field_names If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no Write Field Names Row&quot; firstrow "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS="&quot;*{}$"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="19040"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="CSV2_OUT_QUALIFY_FIELD_NAMES CSV2_OUT_QUALIFY_FIELD_VALUES CSV2_OUT_FIELD_QUALIFIER_CHARACTER CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER CSV2_OUT_ROW_TERMINATION CSV2_OUT_WRITE_SCHEMA_FILE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="csv file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_ATTR_TYPE"
+#!   VALUE="string"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="File1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="CSV File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the CSV file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the CSV file"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="x_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="y_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="z_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="real32"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int64"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int32"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int16"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="uint64"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="uint32"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="uint16"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="uint8"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="CSV2"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_feature_table"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_map"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="CSV2"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="pubParamResultFile"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="13"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="963.35859358593632 1399.3913439134394"
+#!   BOUNDING_RECT="963.35859358593632 1399.3913439134394 431 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="false"
+#!   KEYWORD="CSV2_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="AttributeListCSV" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="AttributeListSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="AttributeName" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Choice" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ChoiceAlias" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ChoiceAliasMultiple" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ChoiceMultiple" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ChoiceOrText" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ColorPicker" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CoordinateSystemName" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="DateTime" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FilenameExisting" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FilenameMultiple" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FilenameOutput" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FolderExisting" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FolderOutput" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Number" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Password" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Text" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TextMultiline" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TextMultilineNumber" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="URL" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Date" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="csv_dataset_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="csv_existing_file_handling" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="csv_fields_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="csv_write_field_names" PARM_VALUE="firstrow"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#!   NAME="fmedatadownload"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="OUTPUT_WRITER"
+#!   VALUE="CSV2_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#!   NAME="fmedatastreaming"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="OUTPUT_WRITER"
+#!   VALUE="CSV2_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#!   NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#!   NAME="weisong"
+#! />
+#! <ITEM
+#!   NAME="publishedParam3_中文.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#!   UID=":DatasetMgr_CSV2_1:DestDataset_CSV2_1"
+#!   VALUE="$(DestDataset_CSV2)"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:DestDataset_CSV2"
+#!   VALUE="$(FME_SHAREDRESOURCE_TEMP)"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FilenameExisting"
+#!   VALUE="$(FME_MF_DIR)metadata.xml"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FilenameMultiple"
+#!   VALUE="&quot;&quot;$(FME_MF_DIR)okta.cert&quot; &quot;$(FME_MF_DIR)okta (1).cert&quot;&quot;"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FilenameOutput"
+#!   VALUE="workspaceDefaultFolder\pubParamFile.txt"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FolderOutput"
+#!   VALUE="workspaceDefaultFolder"
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:LOG_FILE"
+#!   VALUE=""
+#! />
+#! </MODIFICATIONS>
+#! <WRITER_DATASETS>
+#! <DATASET
+#!   NAME="CSV2_1"
+#!   OVERRIDE="-CSV2_1_DATASET"
+#!   DATASET="CSV2_1/"
+#! />
+#! </WRITER_DATASETS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI ATTRLIST_COMMAS_OR_ATTR AttributeListCSV &quot; &quot; AttributeList CSV:"
+#!   DEFAULT_VALUE="Attribute2,Attribute1"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL ATTRLIST_OR_ATTR AttributeListSpace &quot; &quot; AttributeList Space Delimited:"
+#!   DEFAULT_VALUE="Attribute2 Attribute1"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI ATTR AttributeName &quot; &quot; Attribute Name:"
+#!   DEFAULT_VALUE="Attribute1"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI CHOICE_OR_ATTR Choice &quot;&quot;%ppA%ppB%ppC Select a Choice:"
+#!   DEFAULT_VALUE="ppB"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI LISTBOX_OR_ATTR ChoiceMultiple A%ppB%ppC Select Multiple Choices:"
+#!   DEFAULT_VALUE="ppC ppB"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI STRING_OR_CHOICE_OR_ATTR ChoiceOrText &quot;&quot;%Text%ppB%ppC Enter Choice or Text:"
+#!   DEFAULT_VALUE="Text"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI LOOKUP_CHOICE_OR_ATTR ChoiceAlias Choice&lt;space&gt;A,A%Choice&lt;space&gt;B,B%Choice&lt;space&gt;C,C Enter Choice with Alias:"
+#!   DEFAULT_VALUE="B"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI LOOKUP_LISTBOX_OR_ATTR ChoiceAliasMultiple Choice&lt;space&gt;A,A%Choice&lt;space&gt;B,B%Choice&lt;space&gt;C,C Enter Multiple Choice with Alias:"
+#!   DEFAULT_VALUE="A @Value(Attribute1) @Value(Attribute2)"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI COLOR_PICK_OR_ATTR ColorPicker Pick a Color:"
+#!   DEFAULT_VALUE="1,1,1"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL COORDSYS_OR_ATTR CoordinateSystemName Enter a Coordinate System Name:"
+#!   DEFAULT_VALUE="LL84"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME_MUSTEXIST_OR_ATTR FilenameExisting Select_files|*.* Enter an Existing Filename:"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)metadata.xml"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL MULTIFILE_OR_ATTR FilenameMultiple All_Files(*)|* Enter Multiple Filename:"
+#!   DEFAULT_VALUE="&quot;&quot;$(FME_MF_DIR)okta.cert&quot; &quot;$(FME_MF_DIR)okta (1).cert&quot;&quot;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME_OR_ATTR FilenameOutput Select_Output_Filename|*.* Enter Output Filename:"
+#!   DEFAULT_VALUE="workspaceDefaultFolder\pubParamFile.txt"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME_SRC_OR_ATTR FolderExisting Enter an Existing Foldername:"
+#!   DEFAULT_VALUE="$(FME_SHAREDRESOURCE_DATA)"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME_OR_ATTR FolderOutput Enter Output Foldername:"
+#!   DEFAULT_VALUE="workspaceDefaultFolder"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI RANGE_SLIDER_OR_ATTR Number RANGE:[,] Enter a Number:"
+#!   DEFAULT_VALUE="7"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI PASSWORD_OR_ATTR Password Enter a Password:"
+#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszziuOzSuXcPi7w9LmzaQEldV7kHEwXftXwNlGmVBKpYb6M6a0dnRTqjUHBYQwBJkZG2V+iTORzgLOgTym/219WOe6QfrG+zbHH81VdzImtHP1IO6FSJRYewi8UeIr/Qr6coJHAaBbM3kxGp3631GkjSQjmlorcErSoYnVm6oyX6HlYqhRKvBUs+Ss92KCEvuYNH8kgc/3rcNLCiDzM5vYKrSTucObq3Oi6z5sirhrSYWEV947PrmOkS9LUqKXhR1mwgdyXVbLHRm+SP18Nhoy82h4kiqyztRIBdb6d59LnpO9RNZ2NwCXkXdcpHtd+UqA2mmnN+Iqxa4nhPOG9Kipbybh7+yruzmb)"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_OR_ATTR Text Enter a Text:"
+#!   DEFAULT_VALUE="Pub Param Text"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_ATTR TextMultiline &quot; &quot; Enter a Multiline Text:"
+#!   DEFAULT_VALUE="This&lt;space&gt;is&lt;space&gt;a&lt;lf&gt;Pub&lt;space&gt;Param&lt;space&gt;Multiline&lt;lf&gt;Text"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR TextMultilineNumber Enter a Multiline Text or Number:"
+#!   DEFAULT_VALUE="This&lt;space&gt;is&lt;space&gt;a&lt;space&gt;Pub&lt;space&gt;Param&lt;lf&gt;Multi&lt;space&gt;line&lt;lf&gt;Text&lt;space&gt;or&lt;space&gt;Number&lt;space&gt;4"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL URL_OR_ATTR URL http%https%ftp Enter a URL:"
+#!   DEFAULT_VALUE="http://www.squishqtpubparamurl.com"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL DATE_OR_ATTR Date &quot;{}&quot; Enter a Date:"
+#!   DEFAULT_VALUE="20180528"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DATE_TIME_OR_ATTR Date_Time Enter a Date/Time:"
+#!   DEFAULT_VALUE="20160923153100"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME DestDataset_CSV2 Destination CSV (Comma Separated Value) Folder:"
+#!   DEFAULT_VALUE="$(FME_SHAREDRESOURCE_TEMP)"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJjaG9pY2VTZXR0aW5ncyI6eyJjaG9pY2VTZXQiOiJhdHRyaWJ1dGVOYW1lcyJ9LCJkZWZhdWx0VmFsdWUiOiJBdHRyaWJ1dGUyLEF0dHJpYnV0ZTEiLCJkZWxpbWl0ZXIiOiIsIiwibmFtZSI6IkF0dHJpYnV0ZUxpc3RDU1YiLCJwcm9tcHQiOiJBdHRyaWJ1dGVMaXN0IENTVjoiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0cmVlIiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJjaG9pY2VTZXR0aW5ncyI6eyJjaG9pY2VTZXQiOiJhdHRyaWJ1dGVOYW1lcyJ9LCJkZWZhdWx0VmFsdWUiOiJBdHRyaWJ1dGUyIEF0dHJpYnV0ZTEiLCJuYW1lIjoiQXR0cmlidXRlTGlzdFNwYWNlIiwicHJvbXB0IjoiQXR0cmlidXRlTGlzdCBTcGFjZSBEZWxpbWl0ZWQ6IiwicmVxdWlyZWQiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6InRyZWUiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImNob2ljZVNldHRpbmdzIjp7ImNob2ljZVNldCI6ImF0dHJpYnV0ZU5hbWVzIn0sImRlZmF1bHRWYWx1ZSI6IkF0dHJpYnV0ZTEiLCJuYW1lIjoiQXR0cmlidXRlTmFtZSIsInByb21wdCI6IkF0dHJpYnV0ZSBOYW1lOiIsInJlcXVpcmVkIjp0cnVlLCJ0eXBlIjoiZHJvcGRvd24iLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImNob2ljZXMiOlt7ImRpc3BsYXkiOiIiLCJ2YWx1ZSI6IiJ9LHsiZGlzcGxheSI6InBwQSIsInZhbHVlIjoicHBBIn0seyJkaXNwbGF5IjoicHBCIiwidmFsdWUiOiJwcEIifSx7ImRpc3BsYXkiOiJwcEMiLCJ2YWx1ZSI6InBwQyJ9XSwiZGVmYXVsdFZhbHVlIjoicHBCIiwibmFtZSI6IkNob2ljZSIsInByb21wdCI6IlNlbGVjdCBhIENob2ljZToiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJkcm9wZG93biIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlcyI6W3siZGlzcGxheSI6IkEiLCJ2YWx1ZSI6IkEifSx7ImRpc3BsYXkiOiJwcEIiLCJ2YWx1ZSI6InBwQiJ9LHsiZGlzcGxheSI6InBwQyIsInZhbHVlIjoicHBDIn1dLCJkZWZhdWx0VmFsdWUiOiJwcEMgcHBCIiwibmFtZSI6IkNob2ljZU11bHRpcGxlIiwicHJvbXB0IjoiU2VsZWN0IE11bHRpcGxlIENob2ljZXM6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoibGlzdGJveCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlcyI6W3siZGlzcGxheSI6IiIsInZhbHVlIjoiIn0seyJkaXNwbGF5IjoiVGV4dCIsInZhbHVlIjoiVGV4dCJ9LHsiZGlzcGxheSI6InBwQiIsInZhbHVlIjoicHBCIn0seyJkaXNwbGF5IjoicHBDIiwidmFsdWUiOiJwcEMifV0sImRlZmF1bHRWYWx1ZSI6IlRleHQiLCJlZGl0b3IiOiJwbGFpbnRleHQiLCJuYW1lIjoiQ2hvaWNlT3JUZXh0IiwicHJvbXB0IjoiRW50ZXIgQ2hvaWNlIG9yIFRleHQ6IiwicmVxdWlyZWQiOnRydWUsInNob3dFZGl0QnV0dG9uIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJjaG9pY2VzIjpbeyJkaXNwbGF5IjoiQ2hvaWNlIEEiLCJ2YWx1ZSI6IkEifSx7ImRpc3BsYXkiOiJDaG9pY2UgQiIsInZhbHVlIjoiQiJ9LHsiZGlzcGxheSI6IkNob2ljZSBDIiwidmFsdWUiOiJDIn1dLCJkZWZhdWx0VmFsdWUiOiJCIiwibmFtZSI6IkNob2ljZUFsaWFzIiwicHJvbXB0IjoiRW50ZXIgQ2hvaWNlIHdpdGggQWxpYXM6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZHJvcGRvd24iLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImNob2ljZXMiOlt7ImRpc3BsYXkiOiJDaG9pY2UgQSIsInZhbHVlIjoiQSJ9LHsiZGlzcGxheSI6IkNob2ljZSBCIiwidmFsdWUiOiJCIn0seyJkaXNwbGF5IjoiQ2hvaWNlIEMiLCJ2YWx1ZSI6IkMifV0sImRlZmF1bHRWYWx1ZSI6IkEgQFZhbHVlKEF0dHJpYnV0ZTEpIEBWYWx1ZShBdHRyaWJ1dGUyKSIsIm5hbWUiOiJDaG9pY2VBbGlhc011bHRpcGxlIiwicHJvbXB0IjoiRW50ZXIgTXVsdGlwbGUgQ2hvaWNlIHdpdGggQWxpYXM6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoibGlzdGJveCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWxwaGEiOmZhbHNlLCJjb2xvclNwYWNlIjoicmdiIiwiY29tcG9uZW50VmFsdWVUeXBlIjoiZmxvYXQiLCJkZWZhdWx0VmFsdWUiOiIxLDEsMSIsIm5hbWUiOiJDb2xvclBpY2tlciIsInByb21wdCI6IlBpY2sgYSBDb2xvcjoiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJjb2xvciIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlU2V0dGluZ3MiOnsiY2hvaWNlU2V0IjoiY29vcmRpbmF0ZVN5c3RlbXMiLCJyZXByb2plY3Rpb25FbmdpbmUiOiJmbWUifSwiZGVmYXVsdFZhbHVlIjoiTEw4NCIsIm5hbWUiOiJDb29yZGluYXRlU3lzdGVtTmFtZSIsInByb21wdCI6IkVudGVyIGEgQ29vcmRpbmF0ZSBTeXN0ZW0gTmFtZToiLCJyZXF1aXJlZCI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6InJlYWQiLCJkZWZhdWx0VmFsdWUiOiIkKEZNRV9NRl9ESVJfVVNFUlRZUEVEKW1ldGFkYXRhLnhtbCIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiU2VsZWN0IGZpbGVzIiwiZmlsdGVyIjpbIioiXX1dLCJpdGVtc1RvU2VsZWN0IjoiZmlsZXMiLCJuYW1lIjoiRmlsZW5hbWVFeGlzdGluZyIsInByb21wdCI6IkVudGVyIGFuIEV4aXN0aW5nIEZpbGVuYW1lOiIsInJlcXVpcmVkIjp0cnVlLCJzZWxlY3RNdWx0aXBsZSI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZmlsZSIsInZhbGlkYXRlRXhpc3RlbmNlIjp0cnVlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJyZWFkIiwiZGVmYXVsdFZhbHVlIjoiXCJcIiQoRk1FX01GX0RJUl9VU0VSVFlQRUQpb2t0YS5jZXJ0XCIgXCIkKEZNRV9NRl9ESVJfVVNFUlRZUEVEKW9rdGEgKDEpLmNlcnRcIlwiIiwiZmlsdGVycyI6W3siZGVzY3JpcHRpb24iOiJBbGwgRmlsZXMiLCJmaWx0ZXIiOlsiKiJdfV0sIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJGaWxlbmFtZU11bHRpcGxlIiwicHJvbXB0IjoiRW50ZXIgTXVsdGlwbGUgRmlsZW5hbWU6IiwicmVxdWlyZWQiOmZhbHNlLCJzZWxlY3RNdWx0aXBsZSI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJ3cml0ZSIsImRlZmF1bHRWYWx1ZSI6IndvcmtzcGFjZURlZmF1bHRGb2xkZXJcXHB1YlBhcmFtRmlsZS50eHQiLCJmaWx0ZXJzIjpbeyJkZXNjcmlwdGlvbiI6IlNlbGVjdCBPdXRwdXQgRmlsZW5hbWUiLCJmaWx0ZXIiOlsiKiJdfV0sIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJGaWxlbmFtZU91dHB1dCIsInByb21wdCI6IkVudGVyIE91dHB1dCBGaWxlbmFtZToiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6InJlYWQiLCJkZWZhdWx0VmFsdWUiOiIkKEZNRV9TSEFSRURSRVNPVVJDRV9EQVRBKSIsIml0ZW1zVG9TZWxlY3QiOiJmb2xkZXJzIiwibmFtZSI6IkZvbGRlckV4aXN0aW5nIiwicHJvbXB0IjoiRW50ZXIgYW4gRXhpc3RpbmcgRm9sZGVybmFtZToiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6dHJ1ZSwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJhY2Nlc3NNb2RlIjoid3JpdGUiLCJkZWZhdWx0VmFsdWUiOiJ3b3Jrc3BhY2VEZWZhdWx0Rm9sZGVyIiwiaXRlbXNUb1NlbGVjdCI6ImZvbGRlcnMiLCJuYW1lIjoiRm9sZGVyT3V0cHV0IiwicHJvbXB0IjoiRW50ZXIgT3V0cHV0IEZvbGRlcm5hbWU6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6IjciLCJuYW1lIjoiTnVtYmVyIiwicHJvbXB0IjoiRW50ZXIgYSBOdW1iZXI6IiwicmVxdWlyZWQiOnRydWUsInNob3dTbGlkZXIiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6Im51bWJlciIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiZm1lX2RlY3J5cHQoTURvd2ZDTjhJM3hjRzNHUS9UZVJSVUpVWjVMRFB0ZHZwc2NiaDdOajlnRy9JTkJrQUdBK2ZrYURyTmJoWnRmYTNybWtVVXJDeEtXYUFGd2lZc0tnV0pObC8wbVJweFV1UCtJVDJjK1FoaDI2SkVadFVXQW1wdW9hUUNkUTN5a0tXbTJ6YW9BTTVNQkNHYUdFdVllKzZBUzA3L25MTlJKd3FwMWpkd1AxRmdWQ2JYUnZadFdmS2pFWmxOSllRK0VpY1ZjNmN2MkR4Q1lKeVRsanZYd0Y4bUt4ZW5NTDZGS0ppSEFSUUNPOE9NSmlkS0taUUpQMVNlWUlocUIwWXJ0R3c0Y0dWMlpxdVFLaWZ2UmpCMlRsNndCQVdEbWVDZytSMWp2ZnQxdFIxN1NJU3lURHY3N0srbVY4MHcyYWFVU2d5YmJGN2NvTTBCclFQY3BlaGZqbFcrWXhWNzMrOW1QTUZYS1Flem5aMjJUOE1Kb3I1N080NHA4VTJOUUN3MzVIaUZCczBvVlA5VmtrWTBEL1d6R1JldnNleVgxcElFV0pTUVNGd2tKVmhpeVhhdk1EejVFNVNFWWdUWkhmVmVHQlhDRHVJRUViZlJSa1BVNXlEMm53MlpBVmltRFJEN1VRaEVFWTZQb3NHcVUxN0hlNHkzNVdFZkFnZ1E0MCtFS3V1cE9RU1pSc0tvdFRUcWxZR0hKdFg0OXltdUtxZnlaek9BVVNVekRNY2o4Z2ZEZ3pPQ2N1aHcyc0szZkphTXN6eml1T3pTdVhjUGk3dzlMbXphUUVsZFY3a0hFd1hmdFh3TmxHbVZCS3BZYjZNNmEwZG5SVHFqVUhCWVF3QkprWkcyVitpVE9SemdMT2dUeW0vMjE5V09lNlFmckcremJISDgxVmR6SW10SFAxSU82RlNKUllld2k4VWVJci9RcjZjb0pIQWFCYk0za3hHcDM2MzFHa2pTUWptbG9yY0VyU29ZblZtNm95WDZIbFlxaFJLdkJVcytTczkyS0NFdnVZTkg4a2djLzNyY05MQ2lEek01dllLclNUdWNPYnEzT2k2ejVzaXJoclNZV0VWOTQ3UHJtT2tTOUxVcUtYaFIxbXdnZHlYVmJMSFJtK1NQMThOaG95ODJoNGtpcXl6dFJJQmRiNmQ1OUxucE85Uk5aMk53Q1hrWGRjcEh0ZCtVcUEybW1uTitJcXhhNG5oUE9HOUtpcGJ5Ymg3K3lydXptYikiLCJuYW1lIjoiUGFzc3dvcmQiLCJwcm9tcHQiOiJFbnRlciBhIFBhc3N3b3JkOiIsInJlcXVpcmVkIjp0cnVlLCJzaG93Q29uZmlybSI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoicGFzc3dvcmQiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6IlB1YiBQYXJhbSBUZXh0IiwiZWRpdG9yIjoicGxhaW50ZXh0IiwibmFtZSI6IlRleHQiLCJwcm9tcHQiOiJFbnRlciBhIFRleHQ6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiVGhpczxzcGFjZT5pczxzcGFjZT5hPGxmPlB1YjxzcGFjZT5QYXJhbTxzcGFjZT5NdWx0aWxpbmU8bGY+VGV4dCIsImVkaXRvciI6InBsYWludGV4dCIsIm5hbWUiOiJUZXh0TXVsdGlsaW5lIiwicHJvbXB0IjoiRW50ZXIgYSBNdWx0aWxpbmUgVGV4dDoiLCJyZXF1aXJlZCI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZ0VuY29kZWQifSx7ImRlZmF1bHRWYWx1ZSI6IlRoaXM8c3BhY2U+aXM8c3BhY2U+YTxzcGFjZT5QdWI8c3BhY2U+UGFyYW08bGY+TXVsdGk8c3BhY2U+bGluZTxsZj5UZXh0PHNwYWNlPm9yPHNwYWNlPk51bWJlcjxzcGFjZT40IiwiZWRpdG9yIjoicGxhaW50ZXh0IiwibmFtZSI6IlRleHRNdWx0aWxpbmVOdW1iZXIiLCJwcm9tcHQiOiJFbnRlciBhIE11bHRpbGluZSBUZXh0IG9yIE51bWJlcjoiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0FyaXRobWV0aWNFZGl0b3IiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZ0VuY29kZWQifSx7ImRlZmF1bHRWYWx1ZSI6Imh0dHA6Ly93d3cuc3F1aXNocXRwdWJwYXJhbXVybC5jb20iLCJlZGl0b3IiOiJ1cmwiLCJuYW1lIjoiVVJMIiwicHJvbXB0IjoiRW50ZXIgYSBVUkw6IiwicmVxdWlyZWQiOmZhbHNlLCJzaG93RWRpdEJ1dHRvbiI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0cmltV2hpdGVzcGFjZSI6dHJ1ZSwidHlwZSI6InRleHQiLCJ1cmxTZXR0aW5ncyI6eyJ2YWxpZFNjaGVtZXMiOlsiaHR0cCIsImh0dHBzIiwiZnRwIl19LCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6IjIwMTgwNTI4IiwiZm9ybWF0IjoiZGF0ZSIsIm5hbWUiOiJEYXRlIiwicHJvbXB0IjoiRW50ZXIgYSBEYXRlOiIsInJlcXVpcmVkIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJkYXRldGltZSIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAxNjA5MjMxNTMxMDAiLCJuYW1lIjoiRGF0ZV9UaW1lIiwicHJvbXB0IjoiRW50ZXIgYSBEYXRlL1RpbWU6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZGF0ZXRpbWUiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJ3cml0ZSIsImRlZmF1bHRWYWx1ZSI6IiQoRk1FX1NIQVJFRFJFU09VUkNFX1RFTVApIiwiaXRlbXNUb1NlbGVjdCI6ImZvbGRlcnMiLCJuYW1lIjoiRGVzdERhdGFzZXRfQ1NWMiIsInByb21wdCI6IkRlc3RpbmF0aW9uIENTViAoQ29tbWEgU2VwYXJhdGVkIFZhbHVlKSBGb2xkZXI6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9XX0="
+#! >
+#! <PARAMETER_INFO>
+#!     <INFO NAME="AttributeListCSV" IS_STAND_ALONE="true" />
+#!     <INFO NAME="AttributeListSpace" IS_STAND_ALONE="true" />
+#!     <INFO NAME="AttributeName" IS_STAND_ALONE="true" />
+#!     <INFO NAME="Choice" IS_STAND_ALONE="true" />
+#!     <INFO NAME="ChoiceAlias" IS_STAND_ALONE="true" />
+#!     <INFO NAME="ChoiceAliasMultiple" IS_STAND_ALONE="true" />
+#!     <INFO NAME="ChoiceMultiple" IS_STAND_ALONE="true" />
+#!     <INFO NAME="ChoiceOrText" IS_STAND_ALONE="true" />
+#!     <INFO NAME="ColorPicker" IS_STAND_ALONE="true" />
+#!     <INFO NAME="CoordinateSystemName" IS_STAND_ALONE="true" />
+#!     <INFO NAME="Date" IS_STAND_ALONE="true" />
+#!     <INFO NAME="Date_Time" IS_STAND_ALONE="true" />
+#!     <INFO NAME="DestDataset_CSV2" IS_STAND_ALONE="false" />
+#!     <INFO NAME="FilenameExisting" IS_STAND_ALONE="true" />
+#!     <INFO NAME="FilenameMultiple" IS_STAND_ALONE="true" />
+#!     <INFO NAME="FilenameOutput" IS_STAND_ALONE="true" />
+#!     <INFO NAME="FolderExisting" IS_STAND_ALONE="true" />
+#!     <INFO NAME="FolderOutput" IS_STAND_ALONE="true" />
+#!     <INFO NAME="Number" IS_STAND_ALONE="true" />
+#!     <INFO NAME="Password" IS_STAND_ALONE="true" />
+#!     <INFO NAME="Text" IS_STAND_ALONE="true" />
+#!     <INFO NAME="TextMultiline" IS_STAND_ALONE="true" />
+#!     <INFO NAME="TextMultilineNumber" IS_STAND_ALONE="true" />
+#!     <INFO NAME="URL" IS_STAND_ALONE="true" />
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="5"
+#!   POSITION="-929.88712506125057 1567.3059688196884"
+#!   BOUNDING_RECT="-929.88712506125057 1567.3059688196884 431 71"
+#!   ORDER="500000000000000"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17145"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="ParameterFetcher"
+#!   VERSION="4"
+#!   POSITION="17.867781187812056 1438.5549688196884"
+#!   BOUNDING_RECT="17.867781187812056 1438.5549688196884 431 71"
+#!   ORDER="500000000000000"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19040"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="Attribute1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Attribute2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Attribute3" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AttributeListCSV" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AttributeListSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AttributeName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Choice" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ChoiceAlias" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ChoiceAliasMultiple" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ChoiceMultiple" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ChoiceOrText" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ColorPicker" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CoordinateSystemName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DateTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FilenameExisting" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FilenameMultiple" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FilenameOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FolderExisting" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FolderOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Password" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Text" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TextMultiline" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TextMultilineNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="AttributeListCSV $(AttributeListCSV) AttributeListSpace $(AttributeListSpace) AttributeName $(AttributeName) Choice $(Choice) ChoiceAlias $(ChoiceAlias) ChoiceAliasMultiple $(ChoiceAliasMultiple) ChoiceMultiple $(ChoiceMultiple) ChoiceOrText $(ChoiceOrText) ColorPicker $(ColorPicker) CoordinateSystemName $(CoordinateSystemName) DateTime $(Date_Time) FilenameExisting $(FilenameExisting) FilenameMultiple $(FilenameMultiple) FilenameOutput $(FilenameOutput) FolderExisting $(FolderExisting) FolderOutput $(FolderOutput) Number $(Number) Password $(Password) Text $(Text) TextMultiline $(TextMultiline) TextMultilineNumber $(TextMultilineNumber) URL $(URL) Date $(Date)"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ParameterFetcher"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="8"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="-463.50712506125058 1302.5549688196884"
+#!   BOUNDING_RECT="-463.50712506125058 1302.5549688196884 431 71"
+#!   ORDER="500000000000000"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19040"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Attribute1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Attribute2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Attribute3" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; Attribute1 SET_TO attr1Value  Attribute2 SET_TO attr2Value  Attribute3 SET_TO attr3Value"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="9"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="14"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="13"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="10"
+#!   SOURCE_NODE="8"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 38
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+GUI IGNORE DestDataset_CSV2_1,CSV2_OUT_DATASET_GROUP_CSV2_1,CSV2_OUT_EXTENSION_CSV2_1,CSV2_OUT_FIELDS_GROUP_CSV2_1,CSV2_OUT_DELIMITER_CSV2_1,CSV2_OUT_ENCODING_GROUP_CSV2_1,CSV2_OUT_ENCODING_CSV2_1,CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1,CSV2_OUT_ADVANCED_GROUP_CSV2_1,CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1,CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1,CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1,CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1,CSV2_OUT_ROW_TERMINATION_CSV2_1,CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1,CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1
+# ============================================================================
+DEFAULT_MACRO AttributeListCSV Attribute2,Attribute1
+DEFAULT_MACRO AttributeListSpace Attribute2 Attribute1
+DEFAULT_MACRO AttributeName Attribute1
+DEFAULT_MACRO Choice ppB
+DEFAULT_MACRO ChoiceMultiple ppC ppB
+DEFAULT_MACRO ChoiceOrText Text
+DEFAULT_MACRO ChoiceAlias B
+DEFAULT_MACRO ChoiceAliasMultiple A @Value(Attribute1) @Value(Attribute2)
+DEFAULT_MACRO ColorPicker 1,1,1
+DEFAULT_MACRO CoordinateSystemName LL84
+DEFAULT_MACRO FilenameExisting $(FME_MF_DIR)metadata.xml
+DEFAULT_MACRO FilenameMultiple ""$(FME_MF_DIR)okta.cert" "$(FME_MF_DIR)okta (1).cert""
+DEFAULT_MACRO FilenameOutput workspaceDefaultFolder\pubParamFile.txt
+DEFAULT_MACRO FolderExisting $(FME_SHAREDRESOURCE_DATA)
+DEFAULT_MACRO FolderOutput workspaceDefaultFolder
+DEFAULT_MACRO Number 7
+DEFAULT_MACRO Password fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszziuOzSuXcPi7w9LmzaQEldV7kHEwXftXwNlGmVBKpYb6M6a0dnRTqjUHBYQwBJkZG2V+iTORzgLOgTym/219WOe6QfrG+zbHH81VdzImtHP1IO6FSJRYewi8UeIr/Qr6coJHAaBbM3kxGp3631GkjSQjmlorcErSoYnVm6oyX6HlYqhRKvBUs+Ss92KCEvuYNH8kgc/3rcNLCiDzM5vYKrSTucObq3Oi6z5sirhrSYWEV947PrmOkS9LUqKXhR1mwgdyXVbLHRm+SP18Nhoy82h4kiqyztRIBdb6d59LnpO9RNZ2NwCXkXdcpHtd+UqA2mmnN+Iqxa4nhPOG9Kipbybh7+yruzmb)
+DEFAULT_MACRO Text Pub Param Text
+DEFAULT_MACRO TextMultiline This<space>is<space>a<lf>Pub<space>Param<space>Multiline<lf>Text
+DEFAULT_MACRO TextMultilineNumber This<space>is<space>a<space>Pub<space>Param<lf>Multi<space>line<lf>Text<space>or<space>Number<space>4
+DEFAULT_MACRO URL http://www.squishqtpubparamurl.com
+DEFAULT_MACRO Date 20180528
+DEFAULT_MACRO Date_Time 20160923153100
+DEFAULT_MACRO DestDataset_CSV2 $(FME_SHAREDRESOURCE_TEMP)
+# ============================================================================
+GUI STRING AttributeListCSV " " AttributeList CSV:
+GUI OPTIONAL STRING AttributeListSpace " " AttributeList Space Delimited:
+GUI TEXT AttributeName " " Attribute Name:
+GUI CHOICE Choice ""%ppA%ppB%ppC Select a Choice:
+GUI LISTBOX ChoiceMultiple A%ppB%ppC Select Multiple Choices:
+GUI STRING_OR_CHOICE ChoiceOrText ""%Text%ppB%ppC Enter Choice or Text:
+GUI LOOKUP_CHOICE ChoiceAlias Choice<space>A,A%Choice<space>B,B%Choice<space>C,C Enter Choice with Alias:
+GUI LOOKUP_LISTBOX ChoiceAliasMultiple Choice<space>A,A%Choice<space>B,B%Choice<space>C,C Enter Multiple Choice with Alias:
+GUI COLOR_PICK ColorPicker Pick a Color:
+GUI OPTIONAL COORDSYS CoordinateSystemName Enter a Coordinate System Name:
+GUI FILENAME_EXISTING FilenameExisting Select_files|*.* Enter an Existing Filename:
+GUI OPTIONAL MULTIFILE FilenameMultiple All_Files(*)|* Enter Multiple Filename:
+GUI FILENAME FilenameOutput Select_Output_Filename|*.* Enter Output Filename:
+GUI DIRNAME_SRC FolderExisting Enter an Existing Foldername:
+GUI DIRNAME FolderOutput Enter Output Foldername:
+GUI RANGE_SLIDER Number RANGE:[,] Enter a Number:
+GUI PASSWORD Password Enter a Password:
+GUI TEXT Text Enter a Text:
+GUI OPTIONAL TEXT_EDIT TextMultiline " " Enter a Multiline Text:
+GUI TEXT_EDIT_OR_NUM TextMultilineNumber Enter a Multiline Text or Number:
+GUI OPTIONAL URL URL http%https%ftp Enter a URL:
+GUI OPTIONAL DATE Date "{}" Enter a Date:
+GUI DATE_TIME Date_Time Enter a Date/Time:
+GUI DIRNAME DestDataset_CSV2 Destination CSV (Comma Separated Value) Folder:
+# ============================================================================
+USER_PARAMETERS eyJwYXJhbWV0ZXJzIjpbeyJjaG9pY2VTZXR0aW5ncyI6eyJjaG9pY2VTZXQiOiJhdHRyaWJ1dGVOYW1lcyJ9LCJkZWZhdWx0VmFsdWUiOiJBdHRyaWJ1dGUyLEF0dHJpYnV0ZTEiLCJkZWxpbWl0ZXIiOiIsIiwibmFtZSI6IkF0dHJpYnV0ZUxpc3RDU1YiLCJwcm9tcHQiOiJBdHRyaWJ1dGVMaXN0IENTVjoiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0cmVlIiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJjaG9pY2VTZXR0aW5ncyI6eyJjaG9pY2VTZXQiOiJhdHRyaWJ1dGVOYW1lcyJ9LCJkZWZhdWx0VmFsdWUiOiJBdHRyaWJ1dGUyIEF0dHJpYnV0ZTEiLCJuYW1lIjoiQXR0cmlidXRlTGlzdFNwYWNlIiwicHJvbXB0IjoiQXR0cmlidXRlTGlzdCBTcGFjZSBEZWxpbWl0ZWQ6IiwicmVxdWlyZWQiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6InRyZWUiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImNob2ljZVNldHRpbmdzIjp7ImNob2ljZVNldCI6ImF0dHJpYnV0ZU5hbWVzIn0sImRlZmF1bHRWYWx1ZSI6IkF0dHJpYnV0ZTEiLCJuYW1lIjoiQXR0cmlidXRlTmFtZSIsInByb21wdCI6IkF0dHJpYnV0ZSBOYW1lOiIsInJlcXVpcmVkIjp0cnVlLCJ0eXBlIjoiZHJvcGRvd24iLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImNob2ljZXMiOlt7ImRpc3BsYXkiOiIiLCJ2YWx1ZSI6IiJ9LHsiZGlzcGxheSI6InBwQSIsInZhbHVlIjoicHBBIn0seyJkaXNwbGF5IjoicHBCIiwidmFsdWUiOiJwcEIifSx7ImRpc3BsYXkiOiJwcEMiLCJ2YWx1ZSI6InBwQyJ9XSwiZGVmYXVsdFZhbHVlIjoicHBCIiwibmFtZSI6IkNob2ljZSIsInByb21wdCI6IlNlbGVjdCBhIENob2ljZToiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJkcm9wZG93biIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlcyI6W3siZGlzcGxheSI6IkEiLCJ2YWx1ZSI6IkEifSx7ImRpc3BsYXkiOiJwcEIiLCJ2YWx1ZSI6InBwQiJ9LHsiZGlzcGxheSI6InBwQyIsInZhbHVlIjoicHBDIn1dLCJkZWZhdWx0VmFsdWUiOiJwcEMgcHBCIiwibmFtZSI6IkNob2ljZU11bHRpcGxlIiwicHJvbXB0IjoiU2VsZWN0IE11bHRpcGxlIENob2ljZXM6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoibGlzdGJveCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlcyI6W3siZGlzcGxheSI6IiIsInZhbHVlIjoiIn0seyJkaXNwbGF5IjoiVGV4dCIsInZhbHVlIjoiVGV4dCJ9LHsiZGlzcGxheSI6InBwQiIsInZhbHVlIjoicHBCIn0seyJkaXNwbGF5IjoicHBDIiwidmFsdWUiOiJwcEMifV0sImRlZmF1bHRWYWx1ZSI6IlRleHQiLCJlZGl0b3IiOiJwbGFpbnRleHQiLCJuYW1lIjoiQ2hvaWNlT3JUZXh0IiwicHJvbXB0IjoiRW50ZXIgQ2hvaWNlIG9yIFRleHQ6IiwicmVxdWlyZWQiOnRydWUsInNob3dFZGl0QnV0dG9uIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJjaG9pY2VzIjpbeyJkaXNwbGF5IjoiQ2hvaWNlIEEiLCJ2YWx1ZSI6IkEifSx7ImRpc3BsYXkiOiJDaG9pY2UgQiIsInZhbHVlIjoiQiJ9LHsiZGlzcGxheSI6IkNob2ljZSBDIiwidmFsdWUiOiJDIn1dLCJkZWZhdWx0VmFsdWUiOiJCIiwibmFtZSI6IkNob2ljZUFsaWFzIiwicHJvbXB0IjoiRW50ZXIgQ2hvaWNlIHdpdGggQWxpYXM6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZHJvcGRvd24iLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImNob2ljZXMiOlt7ImRpc3BsYXkiOiJDaG9pY2UgQSIsInZhbHVlIjoiQSJ9LHsiZGlzcGxheSI6IkNob2ljZSBCIiwidmFsdWUiOiJCIn0seyJkaXNwbGF5IjoiQ2hvaWNlIEMiLCJ2YWx1ZSI6IkMifV0sImRlZmF1bHRWYWx1ZSI6IkEgQFZhbHVlKEF0dHJpYnV0ZTEpIEBWYWx1ZShBdHRyaWJ1dGUyKSIsIm5hbWUiOiJDaG9pY2VBbGlhc011bHRpcGxlIiwicHJvbXB0IjoiRW50ZXIgTXVsdGlwbGUgQ2hvaWNlIHdpdGggQWxpYXM6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoibGlzdGJveCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWxwaGEiOmZhbHNlLCJjb2xvclNwYWNlIjoicmdiIiwiY29tcG9uZW50VmFsdWVUeXBlIjoiZmxvYXQiLCJkZWZhdWx0VmFsdWUiOiIxLDEsMSIsIm5hbWUiOiJDb2xvclBpY2tlciIsInByb21wdCI6IlBpY2sgYSBDb2xvcjoiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJjb2xvciIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlU2V0dGluZ3MiOnsiY2hvaWNlU2V0IjoiY29vcmRpbmF0ZVN5c3RlbXMiLCJyZXByb2plY3Rpb25FbmdpbmUiOiJmbWUifSwiZGVmYXVsdFZhbHVlIjoiTEw4NCIsIm5hbWUiOiJDb29yZGluYXRlU3lzdGVtTmFtZSIsInByb21wdCI6IkVudGVyIGEgQ29vcmRpbmF0ZSBTeXN0ZW0gTmFtZToiLCJyZXF1aXJlZCI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6InJlYWQiLCJkZWZhdWx0VmFsdWUiOiIkKEZNRV9NRl9ESVJfVVNFUlRZUEVEKW1ldGFkYXRhLnhtbCIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiU2VsZWN0IGZpbGVzIiwiZmlsdGVyIjpbIioiXX1dLCJpdGVtc1RvU2VsZWN0IjoiZmlsZXMiLCJuYW1lIjoiRmlsZW5hbWVFeGlzdGluZyIsInByb21wdCI6IkVudGVyIGFuIEV4aXN0aW5nIEZpbGVuYW1lOiIsInJlcXVpcmVkIjp0cnVlLCJzZWxlY3RNdWx0aXBsZSI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZmlsZSIsInZhbGlkYXRlRXhpc3RlbmNlIjp0cnVlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJyZWFkIiwiZGVmYXVsdFZhbHVlIjoiXCJcIiQoRk1FX01GX0RJUl9VU0VSVFlQRUQpb2t0YS5jZXJ0XCIgXCIkKEZNRV9NRl9ESVJfVVNFUlRZUEVEKW9rdGEgKDEpLmNlcnRcIlwiIiwiZmlsdGVycyI6W3siZGVzY3JpcHRpb24iOiJBbGwgRmlsZXMiLCJmaWx0ZXIiOlsiKiJdfV0sIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJGaWxlbmFtZU11bHRpcGxlIiwicHJvbXB0IjoiRW50ZXIgTXVsdGlwbGUgRmlsZW5hbWU6IiwicmVxdWlyZWQiOmZhbHNlLCJzZWxlY3RNdWx0aXBsZSI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJ3cml0ZSIsImRlZmF1bHRWYWx1ZSI6IndvcmtzcGFjZURlZmF1bHRGb2xkZXJcXHB1YlBhcmFtRmlsZS50eHQiLCJmaWx0ZXJzIjpbeyJkZXNjcmlwdGlvbiI6IlNlbGVjdCBPdXRwdXQgRmlsZW5hbWUiLCJmaWx0ZXIiOlsiKiJdfV0sIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJGaWxlbmFtZU91dHB1dCIsInByb21wdCI6IkVudGVyIE91dHB1dCBGaWxlbmFtZToiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6InJlYWQiLCJkZWZhdWx0VmFsdWUiOiIkKEZNRV9TSEFSRURSRVNPVVJDRV9EQVRBKSIsIml0ZW1zVG9TZWxlY3QiOiJmb2xkZXJzIiwibmFtZSI6IkZvbGRlckV4aXN0aW5nIiwicHJvbXB0IjoiRW50ZXIgYW4gRXhpc3RpbmcgRm9sZGVybmFtZToiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6dHJ1ZSwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJhY2Nlc3NNb2RlIjoid3JpdGUiLCJkZWZhdWx0VmFsdWUiOiJ3b3Jrc3BhY2VEZWZhdWx0Rm9sZGVyIiwiaXRlbXNUb1NlbGVjdCI6ImZvbGRlcnMiLCJuYW1lIjoiRm9sZGVyT3V0cHV0IiwicHJvbXB0IjoiRW50ZXIgT3V0cHV0IEZvbGRlcm5hbWU6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6IjciLCJuYW1lIjoiTnVtYmVyIiwicHJvbXB0IjoiRW50ZXIgYSBOdW1iZXI6IiwicmVxdWlyZWQiOnRydWUsInNob3dTbGlkZXIiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6Im51bWJlciIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiZm1lX2RlY3J5cHQoTURvd2ZDTjhJM3hjRzNHUS9UZVJSVUpVWjVMRFB0ZHZwc2NiaDdOajlnRy9JTkJrQUdBK2ZrYURyTmJoWnRmYTNybWtVVXJDeEtXYUFGd2lZc0tnV0pObC8wbVJweFV1UCtJVDJjK1FoaDI2SkVadFVXQW1wdW9hUUNkUTN5a0tXbTJ6YW9BTTVNQkNHYUdFdVllKzZBUzA3L25MTlJKd3FwMWpkd1AxRmdWQ2JYUnZadFdmS2pFWmxOSllRK0VpY1ZjNmN2MkR4Q1lKeVRsanZYd0Y4bUt4ZW5NTDZGS0ppSEFSUUNPOE9NSmlkS0taUUpQMVNlWUlocUIwWXJ0R3c0Y0dWMlpxdVFLaWZ2UmpCMlRsNndCQVdEbWVDZytSMWp2ZnQxdFIxN1NJU3lURHY3N0srbVY4MHcyYWFVU2d5YmJGN2NvTTBCclFQY3BlaGZqbFcrWXhWNzMrOW1QTUZYS1Flem5aMjJUOE1Kb3I1N080NHA4VTJOUUN3MzVIaUZCczBvVlA5VmtrWTBEL1d6R1JldnNleVgxcElFV0pTUVNGd2tKVmhpeVhhdk1EejVFNVNFWWdUWkhmVmVHQlhDRHVJRUViZlJSa1BVNXlEMm53MlpBVmltRFJEN1VRaEVFWTZQb3NHcVUxN0hlNHkzNVdFZkFnZ1E0MCtFS3V1cE9RU1pSc0tvdFRUcWxZR0hKdFg0OXltdUtxZnlaek9BVVNVekRNY2o4Z2ZEZ3pPQ2N1aHcyc0szZkphTXN6eml1T3pTdVhjUGk3dzlMbXphUUVsZFY3a0hFd1hmdFh3TmxHbVZCS3BZYjZNNmEwZG5SVHFqVUhCWVF3QkprWkcyVitpVE9SemdMT2dUeW0vMjE5V09lNlFmckcremJISDgxVmR6SW10SFAxSU82RlNKUllld2k4VWVJci9RcjZjb0pIQWFCYk0za3hHcDM2MzFHa2pTUWptbG9yY0VyU29ZblZtNm95WDZIbFlxaFJLdkJVcytTczkyS0NFdnVZTkg4a2djLzNyY05MQ2lEek01dllLclNUdWNPYnEzT2k2ejVzaXJoclNZV0VWOTQ3UHJtT2tTOUxVcUtYaFIxbXdnZHlYVmJMSFJtK1NQMThOaG95ODJoNGtpcXl6dFJJQmRiNmQ1OUxucE85Uk5aMk53Q1hrWGRjcEh0ZCtVcUEybW1uTitJcXhhNG5oUE9HOUtpcGJ5Ymg3K3lydXptYikiLCJuYW1lIjoiUGFzc3dvcmQiLCJwcm9tcHQiOiJFbnRlciBhIFBhc3N3b3JkOiIsInJlcXVpcmVkIjp0cnVlLCJzaG93Q29uZmlybSI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoicGFzc3dvcmQiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6IlB1YiBQYXJhbSBUZXh0IiwiZWRpdG9yIjoicGxhaW50ZXh0IiwibmFtZSI6IlRleHQiLCJwcm9tcHQiOiJFbnRlciBhIFRleHQ6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiVGhpczxzcGFjZT5pczxzcGFjZT5hPGxmPlB1YjxzcGFjZT5QYXJhbTxzcGFjZT5NdWx0aWxpbmU8bGY+VGV4dCIsImVkaXRvciI6InBsYWludGV4dCIsIm5hbWUiOiJUZXh0TXVsdGlsaW5lIiwicHJvbXB0IjoiRW50ZXIgYSBNdWx0aWxpbmUgVGV4dDoiLCJyZXF1aXJlZCI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZ0VuY29kZWQifSx7ImRlZmF1bHRWYWx1ZSI6IlRoaXM8c3BhY2U+aXM8c3BhY2U+YTxzcGFjZT5QdWI8c3BhY2U+UGFyYW08bGY+TXVsdGk8c3BhY2U+bGluZTxsZj5UZXh0PHNwYWNlPm9yPHNwYWNlPk51bWJlcjxzcGFjZT40IiwiZWRpdG9yIjoicGxhaW50ZXh0IiwibmFtZSI6IlRleHRNdWx0aWxpbmVOdW1iZXIiLCJwcm9tcHQiOiJFbnRlciBhIE11bHRpbGluZSBUZXh0IG9yIE51bWJlcjoiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0FyaXRobWV0aWNFZGl0b3IiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZ0VuY29kZWQifSx7ImRlZmF1bHRWYWx1ZSI6Imh0dHA6Ly93d3cuc3F1aXNocXRwdWJwYXJhbXVybC5jb20iLCJlZGl0b3IiOiJ1cmwiLCJuYW1lIjoiVVJMIiwicHJvbXB0IjoiRW50ZXIgYSBVUkw6IiwicmVxdWlyZWQiOmZhbHNlLCJzaG93RWRpdEJ1dHRvbiI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0cmltV2hpdGVzcGFjZSI6dHJ1ZSwidHlwZSI6InRleHQiLCJ1cmxTZXR0aW5ncyI6eyJ2YWxpZFNjaGVtZXMiOlsiaHR0cCIsImh0dHBzIiwiZnRwIl19LCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6IjIwMTgwNTI4IiwiZm9ybWF0IjoiZGF0ZSIsIm5hbWUiOiJEYXRlIiwicHJvbXB0IjoiRW50ZXIgYSBEYXRlOiIsInJlcXVpcmVkIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJkYXRldGltZSIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAxNjA5MjMxNTMxMDAiLCJuYW1lIjoiRGF0ZV9UaW1lIiwicHJvbXB0IjoiRW50ZXIgYSBEYXRlL1RpbWU6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZGF0ZXRpbWUiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJ3cml0ZSIsImRlZmF1bHRWYWx1ZSI6IiQoRk1FX1NIQVJFRFJFU09VUkNFX1RFTVApIiwiaXRlbXNUb1NlbGVjdCI6ImZvbGRlcnMiLCJuYW1lIjoiRGVzdERhdGFzZXRfQ1NWMiIsInByb21wdCI6IkRlc3RpbmF0aW9uIENTViAoQ29tbWEgU2VwYXJhdGVkIFZhbHVlKSBGb2xkZXI6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9XX0=
+# ============================================================================
+INCLUDE [ if {{$(AttributeListCSV)} == {}} { puts_real {Parameter 'AttributeListCSV' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(AttributeName)} == {}} { puts_real {Parameter 'AttributeName' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(Choice)} == {}} { puts_real {Parameter 'Choice' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(ChoiceMultiple)} == {}} { puts_real {Parameter 'ChoiceMultiple' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(ChoiceOrText)} == {}} { puts_real {Parameter 'ChoiceOrText' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(ChoiceAlias)} == {}} { puts_real {Parameter 'ChoiceAlias' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(ChoiceAliasMultiple)} == {}} { puts_real {Parameter 'ChoiceAliasMultiple' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(ColorPicker)} == {}} { puts_real {Parameter 'ColorPicker' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(FilenameExisting)} == {}} { puts_real {Parameter 'FilenameExisting' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(FilenameOutput)} == {}} { puts_real {Parameter 'FilenameOutput' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(FolderExisting)} == {}} { puts_real {Parameter 'FolderExisting' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(FolderOutput)} == {}} { puts_real {Parameter 'FolderOutput' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(Number)} == {}} { puts_real {Parameter 'Number' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(Password)} == {}} { puts_real {Parameter 'Password' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(Text)} == {}} { puts_real {Parameter 'Text' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(TextMultilineNumber)} == {}} { puts_real {Parameter 'TextMultilineNumber' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(Date_Time)} == {}} { puts_real {Parameter 'Date_Time' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_CSV2)} == {}} { puts_real {Parameter 'DestDataset_CSV2' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} CSV2
+MULTI_WRITER_KEYWORD{0} CSV2_1
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "CSV2_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER CSV2 CSV2_1
+# =====================================================================
+# The following GUI line prompts for a folder where the
+# CSV files will be stored
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_CSV2_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER CSV2 CSV2_1
+DEFAULT_MACRO DestDataset_CSV2_1 $(DestDataset_CSV2)
+GUI DIRNAME DestDataset_CSV2_1 Destination CSV (Comma Separated Value) Folder:
+DEFAULT_MACRO CSV2_OUT_DATASET_GROUP_CSV2_1 FME_DISCLOSURE_OPEN
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_DATASET_GROUP_CSV2_1 CSV2_OUT_EXTENSION_CSV2_1%CSV2_OUT_EXISTING_FILE_HANDLING Dataset
+DEFAULT_MACRO CSV2_OUT_EXTENSION_CSV2_1 csv
+CSV2_1_EXTENSION "$(CSV2_OUT_EXTENSION_CSV2_1)"
+GUI OPTIONAL TEXT CSV2_OUT_EXTENSION_CSV2_1 Extension:
+DEFAULT_MACRO CSV2_OUT_EXISTING_FILE_HANDLING_CSV2_1 Yes
+CSV2_1_EXISTING_FILE_HANDLING "$(CSV2_OUT_EXISTING_FILE_HANDLING_CSV2_1)"
+DEFAULT_MACRO CSV2_OUT_FIELDS_GROUP_CSV2_1 FME_DISCLOSURE_OPEN
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_FIELDS_GROUP_CSV2_1 CSV2_OUT_DELIMITER_CSV2_1%CSV2_OUT_WRITE_FIELD_NAMES Fields
+DEFAULT_MACRO CSV2_OUT_DELIMITER_CSV2_1 <comma>
+CSV2_1_DELIMITER "$(CSV2_OUT_DELIMITER_CSV2_1)"
+GUI STRING_OR_CHOICE_ENCODED CSV2_OUT_DELIMITER_CSV2_1 ,%;%|%space%tab Delimiter Character:
+DEFAULT_MACRO CSV2_OUT_WRITE_FIELD_NAMES_CSV2_1 firstrow
+CSV2_1_WRITE_FIELD_NAMES "$(CSV2_OUT_WRITE_FIELD_NAMES_CSV2_1)"
+DEFAULT_MACRO CSV2_OUT_ENCODING_GROUP_CSV2_1 FME_DISCLOSURE_OPEN
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_ENCODING_GROUP_CSV2_1 CSV2_OUT_ENCODING_CSV2_1%CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1 Encoding
+DEFAULT_MACRO CSV2_OUT_ENCODING_CSV2_1 
+CSV2_1_ENCODING "$(CSV2_OUT_ENCODING_CSV2_1)"
+GUI OPTIONAL STRING_OR_ENCODING CSV2_OUT_ENCODING_CSV2_1 SYSTEM%* Character Encoding:
+DEFAULT_MACRO CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1 Yes
+CSV2_1_WRITE_BOM_FOR_UNICODE "$(CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1)"
+GUI CHOICE CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1 Yes%No Write Byte Order Mark for Unicode:
+DEFAULT_MACRO CSV2_OUT_ADVANCED_GROUP_CSV2_1 FME_DISCLOSURE_OPEN
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_ADVANCED_GROUP_CSV2_1 FME_DISCLOSURE_CLOSED%CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1%CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1%CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1%CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1%CSV2_OUT_ROW_TERMINATION_CSV2_1%CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1 Advanced
+DEFAULT_MACRO CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1 if_needed
+CSV2_1_QUALIFY_FIELD_NAMES "$(CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1)"
+GUI LOOKUP_CHOICE CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1 Yes,yes%No,no%If<space>Needed,if_needed Qualify Field Names:
+DEFAULT_MACRO CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1 if_needed
+CSV2_1_QUALIFY_FIELD_VALUES "$(CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1)"
+GUI LOOKUP_CHOICE CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1 Yes,yes%No,no%If<space>Needed,if_needed Qualify Field Values:
+DEFAULT_MACRO CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1 <quote>
+CSV2_1_FIELD_QUALIFIER_CHARACTER "$(CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1)"
+GUI STRING_ENCODED CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1 Field Qualifier Character:
+DEFAULT_MACRO CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1 <quote>
+CSV2_1_FIELD_QUALIFIER_ESCAPE_CHARACTER "$(CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1)"
+GUI STRING_ENCODED CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1 Field Qualifier Escape Character:
+DEFAULT_MACRO CSV2_OUT_ROW_TERMINATION_CSV2_1 System
+CSV2_1_ROW_TERMINATION "$(CSV2_OUT_ROW_TERMINATION_CSV2_1)"
+GUI CHOICE CSV2_OUT_ROW_TERMINATION_CSV2_1 System%Windows%Unix%Macintosh Row Termination:
+DEFAULT_MACRO CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1 NO
+CSV2_1_WRITE_SCHEMA_FILE "$(CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1)"
+GUI ACTIVEDISCLOSUREGROUP CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1 FME_DISCLOSURE_CLOSED%CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1 Write Schema Configuration File
+DEFAULT_MACRO CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1 <Unused>
+CSV2_1_EXISTING_SCHEMA_FILE_HANDLING "$(CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1)"
+GUI CHOICE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1 Overwrite%Prepend Existing Schema File Handling:
+DEFAULT_MACRO CSV2_OUT_COORDINATE_SYSTEM_GRANULARITY_CSV2_1 FEATURE_TYPE
+CSV2_1_COORDINATE_SYSTEM_GRANULARITY "$(CSV2_OUT_COORDINATE_SYSTEM_GRANULARITY_CSV2_1)"
+# ============================================================================ 
+CSV2_1_GENERATE_FME_BUILD_NUM 19040
+CSV2_1_DATASET "$(DestDataset_CSV2_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)publishedParam3_中文.log"
+LOG_APPEND YES
+LOG_TIMINGS YES
+FME_DEBUG MAPPING_FILE BADNEWS UNGROUPED UNCORRELATED DUMP_SCHEMA XSD_VERBOSE HTTP_DEBUG FTP_DEBUG FME_DEBUG STASH
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING windows-1252
+DEFAULT_MACRO DATASET_KEYWORD_CSV2_1 CSV2_1
+FME_PASSWORD_PARAMETER_LIST Password
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME publishedParam3_中文
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_CLASSIC NOT_ACTIVATED
+MACRO Creator_2D3D    2D_GEOMETRY
+MACRO Creator_COORDS  <Unused>
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+FACTORY_DEF {$(Creator_XML)} CreationFactory    FACTORY_NAME { Creator_XML_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<gt><lt>null<solidus><gt><lt><solidus>geometry<gt>) }
+FACTORY_DEF {$(Creator_CLASSIC)} CreationFactory    FACTORY_NAME { Creator_CLASSIC_Creator }    $(Creator_2D3D) { $(Creator_COORDS) }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______ }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Creator_Cloner }    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES { 1 }    COPY_NUMBER_ATTRIBUTE { "_creation_instance" }    OUTPUT { FEATURE_TYPE Creator_CREATED        fme_feature_type Creator         }
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 9"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE Creator_CREATED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "Attribute1" "SET_TO" "attr1Value" }      ATTR_ACTION { "" "Attribute2" "SET_TO" "attr2Value" }      ATTR_ACTION { "" "Attribute3" "SET_TO" "attr3Value" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+# -------------------------------------------------------------------------
+Tcl2 proc ParameterFetcher_doFetch {} {    foreach {name val} {"AttributeListCSV {$(AttributeListCSV$encode)} AttributeListSpace {$(AttributeListSpace$encode)} AttributeName {$(AttributeName$encode)} Choice {$(Choice$encode)} ChoiceAlias {$(ChoiceAlias)} ChoiceAliasMultiple {$(ChoiceAliasMultiple$encode)} ChoiceMultiple {$(ChoiceMultiple$encode)} ChoiceOrText {$(ChoiceOrText$encode)} ColorPicker {$(ColorPicker$encode)} CoordinateSystemName {$(CoordinateSystemName$encode)} DateTime {$(Date_Time$encode)} FilenameExisting {$(FilenameExisting$encode)} FilenameMultiple {$(FilenameMultiple$encode)} FilenameOutput {$(FilenameOutput$encode)} FolderExisting {$(FolderExisting$encode)} FolderOutput {$(FolderOutput$encode)} Number {$(Number$encode)} Password {$(Password$encode)} Text {$(Text$encode)} TextMultiline {$(TextMultiline)} TextMultilineNumber {$(TextMultilineNumber)} URL {$(URL$encode)} Date {$(Date$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { ParameterFetcher }    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT { FEATURE_TYPE ParameterFetcher_OUTPUT         @Tcl2(ParameterFetcher_doFetch)          }
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC ParameterFetcher_OUTPUT TO CSV2 __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>pubParamResultFile<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+CSV2_1_DEF pubParamResultFile   csv_existing_file_handling   Yes   csv_write_field_names        firstrow   AttributeListCSV             string   AttributeListSpace           string   AttributeName                string   Choice                       string   ChoiceAlias                  string   ChoiceAliasMultiple          string   ChoiceMultiple               string   ChoiceOrText                 string   ColorPicker                  string   CoordinateSystemName         string   DateTime                     string   FilenameExisting             string   FilenameMultiple             string   FilenameOutput               string   FolderExisting               string   FolderOutput                 string   Number                       string   Password                     string   Text                         string   TextMultiline                string   TextMultilineNumber          string   URL                          string   Date                         string
